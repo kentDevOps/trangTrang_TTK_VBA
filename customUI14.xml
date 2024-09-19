@@ -1,0 +1,24 @@
+﻿<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+	<ribbon startFromScratch="false">
+		<tabs>
+			<tab id="customTab" label="TTKT" insertBeforeMso="TabHome">
+				<group id="customGroup" label="Nhập File Group">
+					<button id="customButton" label="Nhập ITNK" image="pdf" size="large" onAction="Callback" />
+					<button id="customButton1" label="Nhập TMS" image="ex" size="large" onAction="Callback1" />
+					<button id="customButton2" label="Nhập TTR" image="word" size="large" onAction="Callback2" />
+				</group>
+				<group id="customGroup1" label="Xử Lí File Group">
+					<button id="customButton3" label="Xử Lí ITNK" image="p1" size="large" onAction="Callback3" />
+					<button id="customButton4" label="Xử Lí TMS" image="p2" size="large" onAction="Callback4" />
+					<button id="customButton5" label="Xử Lí TTR" image="p3" size="large" onAction="Callback5" />
+				</group>
+				<group id="customGroup2" label="Kết Xuất File Group">
+					<button id="customButton6" label="Kết Xuất ITNK" image="e1" size="large" onAction="Callback6" />
+					<button id="customButton7" label="Kết Xuất TMS" image="e2" size="large" onAction="Callback7" />
+					<button id="customButton8" label="Kết Xuất TTR" image="e3" size="large" onAction="Callback8" />
+					<button id="customButton9" label="Xuất Báo Cáo" image="report" size="large" onAction="Callback8" />
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>
